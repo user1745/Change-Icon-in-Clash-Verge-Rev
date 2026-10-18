@@ -1,75 +1,22 @@
-<div align="center">
-
 # Change Icon in Clash Verge Rev
 
-**Clash Verge Rev 图标替换资源与操作指南 —— 提供主程序图标、托盘图标和相关转换工具链的完整说明。**
+Icon resources and a Windows guide for replacing Clash Verge Rev application and tray icons.
 
-[![Platform](https://img.shields.io/badge/Platform-Windows-informational.svg)](https://www.microsoft.com/windows/)
-[![Resources](https://img.shields.io/badge/Content-Icon%20resources-blue.svg)](#仓库内容)
+## Project notes
 
-</div>
+This repository collects PNG/ICO, application-icon, tray-icon and Resource Hacker materials. Third-party icons, trademarks and software are excluded from this license.
 
-## 目录
+## Quick start
 
-- [项目简介](#项目简介)
-- [仓库内容](#仓库内容)
-- [准备工具](#准备工具)
-- [操作流程](#操作流程)
-- [尺寸建议](#尺寸建议)
-- [注意事项](#注意事项)
-- [许可证](#许可证)
+```bash
+git clone https://github.com/user1745/Change-Icon-in-Clash-Verge-Rev.git
+cd Change-Icon-in-Clash-Verge-Rev
+```
 
-## 项目简介
+## Resources
 
-本仓库整理了为 **Clash Verge Rev** 更换程序图标和托盘图标所需的图片、ICO 文件及操作资料，适合希望自定义 Windows 客户端外观的用户。
+Refer to the repository files, demo links and hardware/system configuration. Third-party components retain their own licenses.
 
-本项目主要提供资源与教程，不包含 Clash Verge Rev 源代码，也不修改其程序逻辑。
+## License
 
-## 仓库内容
-
-| 内容 | 用途 |
-| --- | --- |
-| `图标-图片.png` | 用于继续编辑或转换的图标源图片 |
-| `图标.ico` | 可直接用于 Windows 可执行文件的 ICO 图标 |
-| `图标` | 托盘图标相关资源 |
-| `托盘图标-图片` | 托盘图标源图片 |
-| `资源编辑器(Resource Hacker)` | 资源编辑工具相关资料 |
-
-## 准备工具
-
-### 图标资源
-
-- 图标图片搜索：[igoutu.cn/icons](https://igoutu.cn/icons)
-- PNG 转 ICO：[ico.so](https://ico.so/)
-
-### 可执行文件资源编辑器
-
-参考教程：[保姆级教程教你更改 exe 图标](https://www.bilibili.com/video/BV1RASUBEEsq?vd_source=8a3cfebb5b0c7324aa168aa85736dd91)
-
-## 操作流程
-
-1. 准备 PNG 图标，优先选择主体清晰、背景透明的图片。
-2. 通过图片编辑工具抠图并去除背景，只保留图标主体。
-3. 将 PNG 转换为 ICO，并按目标用途选择合适的尺寸组合。
-4. 使用资源编辑器打开目标 exe，替换主程序图标或托盘图标。
-5. 保存前备份原始 exe；完成后重启程序并清理 Windows 图标缓存，以确认显示效果。
-
-## 尺寸建议
-
-| 使用场景 | 建议尺寸 |
-| --- | --- |
-| 主程序 exe 图标 | 16×16、32×32、48×48、64×64、128×128、256×256 |
-| 托盘图标 | 16×16、24×24、32×32、48×48、64×64 |
-
-尽量在一个 ICO 文件中同时保留多个尺寸，Windows 会根据显示位置和 DPI 自动选择合适的图像。
-
-## 注意事项
-
-- 修改第三方程序前请保留原始备份，并确认你有权修改和再分发目标文件。
-- 图标资源的版权和商标权归原作者或权利人所有；仓库中的外部链接仅作为工具入口或教程参考。
-- 修改后如果界面仍显示旧图标，通常是 Windows 图标缓存尚未刷新。
-- Resource Hacker 等工具的使用方式可能随版本变化，请以工具当前界面为准。
-
-## 许可证
-
-本仓库当前未声明开源许可证。除明确标注为本人创作的文件外，图标、教程和第三方资源请遵循其原作者的授权条款；未经许可不要直接再分发受版权保护的资源。
+Original code, project files and documentation are released under the [MIT License](LICENSE). Third-party components and external assets retain their own terms.
